@@ -30,5 +30,11 @@ This project is a Python-based client application that simulates a doctor-patien
 
 ## 🔧 Kullanım | Usage
 
+### 🖥️ Sunucu Başlatma | Starting the Server
+
 ```bash
-python istemci.py
+python 22100011045_Server.py
+
+TR: Sunucuyu başlatır. randevular.txt dosyasını okuyarak sistemdeki randevulu hastaları yükler. Hem TCP hem UDP bağlantılarını dinler.
+
+EN: Starts the server. Loads scheduled patients from randevular.txt. Listens for both TCP and UDP connections.
